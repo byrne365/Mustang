@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="carStore">
+<head>
+  <title>Review a Mustang</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA- Compatible" content="IE=edge">
+  <link rel="stylesheet" href="bootstrap css/bootstrap.min.css">
+  <link rel="stylesheet" href="/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script type="text/javascript" src="products.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body ng-controller="StoreController as store">
+  <div class="container">
+  <!--  Store Header  -->
+    <header>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">The Mustang Paddock</h1>
+            <h2 class="text-center">– Review a Pony –</h2>
+          </div>
+        </div>
+    </div>
+    </header>
+
+      <!--  Products Container  -->
+      <div class="list-group">
+        <!--  Product Container  -->
+        <div class="list-group-item" ng-repeat="product in store.products">
+          <h3>{{product.name}} <em class="pull-right">{{product.price | currency}}</em></h3>
+          <hr>
+          <!-- Image Gallery  -->
+          <product-gallery></product-gallery>
+          <!-- Product Tabs  -->
+          <product-tabs></product-tabs>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

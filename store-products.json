@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Ford Mustang V8 GT",
+    "description": "5.0 Ti-VCT, 6-Speed automatic transmission, sterring wheel paddle shifters.",
+    "year": 2017,
+    "price": 78800.00,
+    "power": 9,
+    "handeling": 8,
+    "comfort": 9,
+    "images": [
+      "static/Mut1a.png"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "Ford Mustang V8 GT, Covertible",
+    "description": "5.0 Ti-VCT, 6-Speed automatic transmission, sterring wheel paddle shifters with a soft top.",
+    "year": 2017,
+    "price": 82900.00,
+    "power": 8,
+    "handeling": 7,
+    "comfort": 8,
+    "images": [
+      "static/Mut2a.png"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "Ford Mustang 351 V8",
+    "description": "2-door coupe body type, RWD (rear-wheel drive), manual 3-speed gearbox with a 351.9 cui power house.",
+    "year": 1969,
+    "price": 91000.00,
+    "power": 7,
+    "handeling": 7,
+    "comfort": 8,
+    "images": [
+      "static/Mut3a.png"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "Ford Mustang Mach I",
+    "description": "2-door fastback coupe, RWD (rear-wheel drive), with a 280.3 cui Ford In Tech 4.6 L V 8.",
+    "year": 2003,
+    "price": 28045.00,
+    "power": 8,
+    "handeling": 6,
+    "comfort": 5,
+    "images": [
+      "static/Mut4a.png"
+    ],
+    "reviews": []
+  }
+]
