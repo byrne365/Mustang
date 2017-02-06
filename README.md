@@ -1,10 +1,10 @@
 # Mustang
 
-This Project uses Angularjs as the framework, HTML, CSS and Bootstrap. The purpose of this project is to display my understanding of Angularjs and allows users to review and rate (by star count) different model Mustang cars.
+This Project uses `Angularjs` as the framework, `nodejs`, `HTML`, `CSS` and `Bootstrap`. The purpose of this project is to display my understanding of Angularjs and allows users to review and rate (by star count) different model Mustang cars.
 
 ## Installation
 
-To run the project succesfully on your local machine you are going to require to have installed on your machine 'Google Chrome' browser and the project file.
+To run the project succesfully on your local machine you are going to require to have installed on your machine `Google Chrome` browser and the project file.
 
 ### Installing Chrome
 
@@ -31,7 +31,7 @@ To install Chrome for your user account:
 
 1.Download the disk image.
 
-2.Open the file called "Google Chrome.dmg."
+2.Open the file called `Google Chrome.dmg.`
 
 3.In the window that opens, find the Chrome icon Chrome app. Drag it to the Applications folder. If you don't have              administrative rights, you'll be asked to authenticate. If you're not able to authenticate, drag the icon to a               location on your computer where you do have rights, such as your desktop.
 
@@ -58,8 +58,9 @@ Use the same software that installs programs on your computer to install Chrome.
 ## Running the app.
 
 1. Unzip the downloaded repository.
-2. In 'command propmt' or 'terminal' cd in the unzipped repository file.
-3. Once in the file type 'npm install' to install the node packge manager.
-4. Then type 'npm start' this will start the server.
-5. In your 'Chrome' browser enter the following url 'localhost:8000' which will load the 'index.html' page.
+2. In `command prompt` in `Windows` or `terminal` if you are using `Mac OSX`.
+3. `cd` into the unzipped repository file.
+4. Once in the file type `npm install` to install the node packge manager.
+5. Then type `npm start` this will start the server.
+56. In your `Chrome` browser enter the following url `localhost:8000` which will load the `index.html` page.
 
